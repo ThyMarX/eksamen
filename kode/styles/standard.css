@@ -50,6 +50,7 @@ table {
 /* -------Her kommer mit eget style------- */
 /* --------------------------------------- */
 
+
 /* -----Overordnet css----- */
 
 body{
@@ -83,7 +84,7 @@ img{
 	height: auto;
 }
 
-/*div {border: 1px solid red;}  Bliver commenteret ud når der skal uploades */
+div {border: 1px solid red;}  /*Bliver kommenteret ud når der skal uploades */
 
 h1{	font-size: 70px;}
 h2{ font-size: 45px;}
@@ -112,14 +113,14 @@ nav{
 	width: 90%;
 	height: 100px;
 	flex-direction: column;
-}
-nav a{
-	text-decoration: none;
-	color:#707070;
-	font-size: 20px;
 	font-weight:bold;
 }
-nav a:hover{ 
+a{
+	text-decoration: none;
+	color:#585858;
+	font-size: 20px;
+}
+a:hover{ 
 	color:#A2A2A2;
 }
 .sidebarStreg{
@@ -132,14 +133,10 @@ nav a:hover{
 
 .main{
 	width: 87.4%;
+	padding-left: 12%;
 	height: 100%;
 }
 
-/* En "fake" sidebar fordi 'position: fixed' ikke fungere med flex */
-.fakeSidebar{
-	width: 11.7%;
-	height: 100%;
-}
 .titel{
 	width: 100%;
 	height: auto;
@@ -151,89 +148,4 @@ nav a:hover{
 	height: auto; /*ikke nødvendig, men tænker at hvis det ikke står der så kommer der problemer senere*/
 	padding-bottom: 5%; 
 }
-
-
-/* ---Forside sektionen og dens css--- */
-
-#forside{}
-
-.forsideBillede img{
-	width: 88%;
-	margin: 0 7.5%;
-}
-
-
-/* ---Projekter sektionen og dens css--- */
-
-#projekter{}
-
-.projektVindue{
-	background-color: white;
-	padding: 3%;
-}
-.stor{	margin: 5% 28.8%;}
-.lille{	width: 21.7%;}
-
-
-/* koden for hvordan jeg første gang prøvede at opbygge projekter sektionen, lidt ligesom jeg har det nu
-	.projektVindue{
-		background-color: white;
-		padding: 3%;
-	}
-	.projektVindue img{
-		width: 100%;
-		height: 100%;
-	}
-	.stort{	  margin: 2% 28.8%;}
-	.lille{	  width: 10%;}
-	.venstre{ margin-right: 4%;}
-	.hoejre{  margin-left: 4%;}
-	.midten{  margin: 4%;}   */
-
-
-/* ---Om mig sektionen og dens css--- */
-
-#omMig{}
-
-.omMigTekst{
-	width: 34.3%;
-	margin-left: 7.5%;
-	margin-right: 4.2%;
-}
-.omMigBillede{
-	width: 41.6%;
-	margin-left: 4.2%;
-	margin-right: 7.5%;
-}
-
-
-/* ---Refleksion sektionen og dens css--- */
-
-#refleksioner{}
-
-.refleksionerTekst1{
-	width: 41.8%;
-	margin-left: 7.5%;
-	margin-right: 0.5%;
-	margin-bottom: 2%;
-	margin-top: 2%;
-}
-.refleksionerTekst2{
-	width: 41.8%;
-	margin-left: 0.5%;
-	margin-right: 7.5%;
-	margin-bottom: 2%;
-	margin-top: 2%;
-}
-.refleksionerLink{
-	width: 11%;
-	margin-left: 50.6%;
-}
-
-
-
-
-
-
-
 

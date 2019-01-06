@@ -4,12 +4,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>index</title>
-	<link rel="stylesheet" href="styles/styles.css">
+	
+	<link rel="stylesheet" href="styles/standard.css">
+	<link rel="stylesheet" href="styles/index.css">
 </head>
 
 <body>
 	
-	<div id="container">
+	<main><div id="container">
 		
 		<!-- -----Sidebar sektionen----- /-->
 		<div class="sidebar">
@@ -30,9 +32,6 @@
 			</div>
 		</div>
 		
-		<!-- En tom div for at fylde ud for sidebar fordi den ikke kan være flex -->
-		<div class="fakeSidebar"></div>
-		
 		<!-- -----Hovedside sektionen og dens indhold----- /-->
 		<div class="main">
 			
@@ -52,30 +51,38 @@
 			<div id="projekter" class="sektionsRamme">
 				<div class="titel"><h1>1. Semester Projekter</h1></div>
 				
-				<div class="projektVindue stor">
-					<img src="billeder/logo.png" alt="Billeder releteret til mit eksamens projekt">
-					<h2>Eksamens projekt</h2><br>
-					<h4>Photoshop, XD, Illustrator, Dreamweaver</h4>
-				</div>
+					<div class="projektVindueStor">
+						<a href="./projekter/projekt.html"><div>
+							<img src="billeder/logo.png" alt="Billeder releteret til mit eksamens projekt">
+							<h2>Eksamens projekt</h2><br>
+							<h4>Photoshop, XD, Illustrator, Dreamweaver</h4>
+						</div></a>
+					</div>
 				
 				<div class="flex">
 					
-					<div class="projektVindue lille">
-						<img src="billeder/logo.png" alt="Billeder releteret til min 'drøm dit portfolio' opgave">
-						<h3>XD portfolio</h3><br>
-						<h4>XD</h4>
+					<div class="projektVindueLille">
+						<a href="./projekter/projekt.html"><div>
+							<img src="billeder/logo.png" alt="Billeder releteret til min 'drøm dit portfolio' opgave">
+							<h3>XD portfolio</h3><br>
+							<h4>XD</h4>
+						</div></a>
 					</div> 
 					
-					<div class="projektVindue lille">
-						<img src="billeder/logo.png" alt="Billeder releteret til min 'byg en app' opgave">
-						<h3>Byg en app</h3> <br>
-						<h4>XD, Illustrator</h4>
+					<div class="projektVindueLille">
+						<a href="./projekter/projekt.html"><div>
+							<img src="billeder/logo.png" alt="Billeder releteret til min 'byg en app' opgave">
+							<h3>Byg en app</h3> <br>
+							<h4>XD, Illustrator</h4>
+						</div></a>
 					</div>
 					
-					<div class="projektVindue lille">
-						<img src="billeder/logo.png" alt="Billeder releteret til min 'Sweetbot' opgave">
-						<h3>Sweetbot</h3><br>
-						<h4>Dreamweaver, Illustrator</h4>
+					<div class="projektVindueLille">
+						<a href="./projekter/projekt.html"><div>
+							<img src="billeder/logo.png" alt="Billeder releteret til min 'Sweetbot' opgave">
+							<h3>Sweetbot</h3><br>
+							<h4>Dreamweaver, Illustrator</h4>
+						</div></a>
 					</div>
 					
 				</div>
@@ -109,7 +116,7 @@
 					</div>
 					
 					<nav class="flex refleksionerLink">
-						<a href="#">Læs mere</a>
+						<a href="refleksioner.html">Læs mere</a>
 					</nav>
 				</div>
 			</div>
@@ -120,7 +127,11 @@
 			
 			</div>
 		</div>		
-	</div>
+	</div></main>
+	
+	<script>
+		
+	</script>
 	
 </body>
 	

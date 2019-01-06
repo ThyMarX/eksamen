@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ---Forside sektionen og dens css--- */
+
+#forside{}
+
+.forsideBillede img{
+	width: 88%;
+	margin: 0 7.5%;
+}
+
+
+/* ---Projekter sektionen og dens css--- */
+
+#projekter{}
+
+.projektVindueStor, .projektVindueLille{
+	background-color: white;
+	padding: 3%;
+}
+.projektVindueStor{	margin: 5% 28.8%;}
+.projektVindueLille{width: 21.7%;}
+
+
+/* ---Om mig sektionen og dens css--- */
+
+#omMig{}
+
+.omMigTekst{
+	width: 34.2%;
+	margin-left: 7.5%;
+	margin-right: 4.2%;
+}
+.omMigBillede{
+	width: 41.5%;
+	margin-left: 4.2%;
+	margin-right: 7.5%;
+}
+
+
+/* ---Refleksion sektionen og dens css--- */
+
+#refleksioner{}
+
+.refleksionerTekst1, .refleksionerTekst2{ width: 41.5%;}
+.refleksionerTekst1{ margin: 2% 0.5% 2% 7.5%;}
+.refleksionerTekst2{ margin: 2% 7.5% 2% 0.5%;}
+
+.refleksionerLink{
+	width: 11%;
+	margin-left: 50.6%;
+}
+
+
+
+
+
+
+
+

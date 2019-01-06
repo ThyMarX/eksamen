@@ -46,22 +46,23 @@ table {
 }
 
 
+/* --------------------------------------- */
 /* -------Her kommer mit eget style------- */
-
-
+/* --------------------------------------- */
 
 /* -----Overordnet css----- */
 
 body{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	color:#707070;
+	color:#585858;
+	background-color:#EAEFFF;
 }
 
 /* Containeren som alt på siden er i */
 #container{
 	max-width: 3000px;
 /*min-width: 800px;*/
-	height: 2000px;
+	height: auto;
 	margin: 0 2.7%;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -70,20 +71,25 @@ body{
 	justify-content: space-between;
 }
 
-div{ border: 1px solid red;} /* Bliver commenteret ud når der skal uploades */
-
-
-/* For at gøre en ikke-div om til flex */
+/* For at lave noget om til flex */
 .flex{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	border: 1px solid red; /* Bliver commenteret ud når der skal uploades */
 }
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+div {border: 1px solid red;}  /*Bliver commenteret ud når der skal uploades */
+
 h1{	font-size: 70px;}
 h2{ font-size: 45px;}
 h3{ font-size: 35px;}
-p { font-size: 30px;}
+h4{ font-size: 20px;}
+p { font-size: 20px;}
 
 
 
@@ -96,12 +102,10 @@ p { font-size: 30px;}
 	height: 600px;
 	left: 0px;
 	margin: 0 2.7%;	
+	padding-top: 11px;
 }
-
-.logo{	margin-bottom: 20px;}
-.logo img{
-	width: 100%;
-	height: 100%;
+.logo{	
+	margin-bottom: 20px;
 }
 
 nav{
@@ -120,10 +124,7 @@ nav a:hover{
 }
 .sidebarStreg{
 	width: auto;
-	height: 93%;
-	float: right;
 }
-
 
 
 
@@ -136,13 +137,17 @@ nav a:hover{
 
 /* En "fake" sidebar fordi 'position: fixed' ikke fungere med flex */
 .fakeSidebar{
-	width: 11.6%;
+	width: 11.7%;
 	height: 100%;
 }
-
 .titel{
 	width: 100%;
 	height: auto;
 	text-align: center;
 }
 
+.sektionsRamme{
+	width: auto;  /*ikke nødvendig, men tænker at hvis det ikke står der så kommer der problemer senere*/
+	height: auto; /*ikke nødvendig, men tænker at hvis det ikke står der så kommer der problemer senere*/
+	padding-bottom: 5%; 
+}

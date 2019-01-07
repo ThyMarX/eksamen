@@ -1,8 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+div {border: 1px solid red;}  /*Bliver kommenteret ud når der skal uploades */
 
-/* -----Browser/CSS reset vi hugger fra eric mayer fra meyerweb----- */
+/* -----Browser/CSS reset vi hugger fra eric mayer fra meyerweb----- 
+
+*/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -84,8 +87,6 @@ img{
 	height: auto;
 }
 
-div {border: 1px solid red;}  /*Bliver kommenteret ud når der skal uploades */
-
 h1{	font-size: 70px;}
 h2{ font-size: 45px;}
 h3{ font-size: 35px;}
@@ -141,11 +142,17 @@ a:hover{
 	width: 100%;
 	height: auto;
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 .sektionsRamme{
-	width: auto;  /*ikke nødvendig, men tænker at hvis det ikke står der så kommer der problemer senere*/
-	height: auto; /*ikke nødvendig, men tænker at hvis det ikke står der så kommer der problemer senere*/
+	width: auto;  /*ikke nødvendig, men hvis det ikke står der kommer der måske problemer senere*/
+	height: auto; /*ikke nødvendig, men hvis det ikke står der kommer der måske problemer senere*/
 	padding-bottom: 5%; 
 }
 
+.tekst{
+	border: 1.5px solid #585858;
+	background-color: white;
+	padding: 5px;
+}

@@ -17,8 +17,8 @@
 #projekter{}
 
 .projektVindueStor, .projektVindueLille{
-	background-color: white;
 	padding: 3%;
+	background-color: white;
 }
 .projektVindueStor{	margin: 5% 28.8%;}
 .projektVindueLille{width: 21.7%;}
@@ -49,8 +49,8 @@
 .refleksionerTekst2{ margin: 2% 7.5% 2% 0.5%;}
 
 .refleksionerLink{
-	width: 11%;
-	margin-left: 50.6%;
+	width: 30%;
+	margin-left: 51%;
 }
 
 

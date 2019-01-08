@@ -54,7 +54,42 @@
 }
 
 
+/* ---Refleksion sektionen og dens css--- */
 
+#kontakt{}
+
+.kontaktFormular{
+	width: 71.1%;
+	margin-left: 14.5%;
+	color: black;
+}
+
+input{}
+
+form{
+	position: absolute;
+	width: 100%;
+	left: 0;
+}
+.kontaktFelt{
+	width: 40%;
+	margin-left: 35%;
+	margin-top: 20px;
+}
+.top{
+	margin-top: 10%;
+}
+.baggrundsBillede{
+}
+
+textarea{
+	width: 60%;
+	height: 60px;
+	max-height: 100px;
+	min-height: 50px;
+	max-width: 500px;
+	min-width: 100px;
+}
 
 
 

@@ -2,6 +2,9 @@
 /* CSS Document */
 
 
+/* ---For at passe underemnet ind i sidebaren--- */
+nav{height: 140px;}
+
 /* -----Slideshow sektionen og dens css----- */
 
 .slideshow{

@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-div {border: 1px solid red;}  /*Bliver kommenteret ud når der skal uploades */
+  /*Bliver kommenteret ud når der skal uploades */
 
 /* -----Browser/CSS reset vi hugger fra eric mayer fra meyerweb----- 
 
@@ -53,13 +53,17 @@ table {
 /* -------Her kommer mit eget style------- */
 /* --------------------------------------- */
 
+/*div {border: 1px solid red;}*/
 
 /* -----Overordnet css----- */
+
+html{ scroll-behavior: smooth;} /* Scroll effekten på forsiden */
 
 body{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	color:#585858;
 	background-color:#EAEFFF;
+	
 }
 
 /* Containeren som alt på siden er i */
@@ -80,6 +84,11 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+}
+.ikkeFlex{
+	display: default;
+	flex-wrap: nowrap;
+	justify-content: 0;
 }
 
 img{
@@ -121,13 +130,13 @@ a{
 	color:#585858;
 	font-size: 20px;
 }
-a:hover{ 
-	color:#A2A2A2;
-}
-.sidebarStreg{
-	width: auto;
-}
+a:hover{ color:#A2A2A2;}
+.sidebarStreg{ width: auto;} /*ikke nødvendig, men hvis det ikke står der kommer der måske problemer senere*/
 
+.underEmne{
+	padding-left: 10%;
+	font-weight: normal;
+}
 
 
 /* -----Main sektionen og dens css----- */

@@ -10,8 +10,7 @@
 </head>
 
 <body>
-	
-	<main><div id="container">
+	<div id="container">
 		
 		<!-- -----Sidebar sektionen----- /-->
 		<div class="sidebar">
@@ -124,10 +123,25 @@
 			<!-- ---Kontakt siden--- /-->
 			<div id="kontakt" class="sektionsRamme">
 				<div class="titel"><h1>Kontakt</h1></div>
-			
+
+				<div class="kontaktFormular">
+					<form action="mailto:thomas.d.s@hotmail.com" method="post" enctype="text/plain">
+					   <div class="kontaktFelt top"><label class="tekst">Dit Navn:</label></div>
+					   <div class="kontaktFelt"><input type="text" name="name" placeholder="Skriv.." autofocus required></div>
+						
+					   <div class="kontaktFelt"><label class="tekst">Din Email:</label> </div>
+					   <div class="kontaktFelt"><input type="email" name="email" placeholder="Skriv en gyldig mail.." required> </div>
+						
+					   <div class="kontaktFelt"><label class="tekst">Din besked:</label></div>
+					   <div class="kontaktFelt"><textarea name="comment" placeholder="Din besked..."></textarea></div>
+						
+					   <div class="kontaktFelt"><input type="submit" value="Send besked"></div>
+					</form>	
+					<img src="billeder/sejltur1.jpg" class="baggrundsBillede" alt="Billede af en solnedgang">
+				</div>
 			</div>
 		</div>		
-	</div></main>
+	</div>
 	
 	<script>
 		

@@ -57,7 +57,7 @@ table {
 
 /* -----Overordnet css----- */
 
-html{ scroll-behavior: smooth;} /* Scroll effekten på forsiden */
+html{ scroll-behavior:smooth;} /* Scroll effekten på forsiden */
 
 body{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
@@ -100,8 +100,22 @@ h1{	font-size: 70px;}
 h2{ font-size: 45px;}
 h3{ font-size: 35px;}
 h4{ font-size: 20px;}
-p { font-size: 20px;}
+p { font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 
+}
+
+
+@media only screen and (max-width: 965px) {
+	h1{	font-size: 45px;}
+	h2{	font-size: 35px;}
+	h3{	font-size: 20px;}
+	h4{ font-size: 15px;}
+nav a{  font-size: 15px;}
+	p{	font-size: 15px;
+		
+	}
+}
 
 
 /* -----Sidebar sektionen og dens css----- */

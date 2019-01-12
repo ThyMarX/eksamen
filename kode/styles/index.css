@@ -29,12 +29,12 @@
 #omMig{}
 
 .omMigTekst{
-	width: 34.2%;
+	width: 41.5%;
 	margin-left: 7.5%;
 	margin-right: 4.2%;
 }
 .omMigBillede{
-	width: 41.5%;
+	width: 34.2%;
 	margin-left: 4.2%;
 	margin-right: 7.5%;
 }
@@ -49,8 +49,8 @@
 .refleksionerTekst2{ margin: 2% 7.5% 2% 0.5%;}
 
 .refleksionerLink{
-	width: 30%;
-	margin-left: 51%;
+	width: 50%;
+	margin-top: 5%;
 }
 
 

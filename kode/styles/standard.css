@@ -97,13 +97,18 @@ img{
 	height: auto;
 }
 
+
 h1{	font-size: 70px;}
 h2{ font-size: 45px;}
 h3{ font-size: 35px;}
 h4{ font-size: 20px;}
+div{font-size: 20px;
+font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
 p { font-size: 20px;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
+
 
 
 @media only screen and (max-width: 965px) {

@@ -20,7 +20,6 @@ nav{height: 140px;}
 
 .slideRamme{
 	border: 1.5px solid #585858;
-	border-bottom: none;
 }
 
 /* ---Forrige og næste knapperne--- */
@@ -33,6 +32,10 @@ nav{height: 140px;}
 	padding: 16px;
 	transition: 0.6s ease;
 	border-radius: 0 3px 3px 0;
+}
+
+.slideTekst{
+	border-top: none;
 }
 
 .naeste {
@@ -73,13 +76,22 @@ nav{height: 140px;}
 
 /* -----Tekst sektionen på siden og dens css----- */
 
-.problemStilling{
+.projektOpsummering{
 	width: 34.9%;
 	margin-left: 8.4;
+	height: auto;
 	
 }
 
-.projektInformation{
-	width: 100%;
+.projektTekst{
+	width: 71.1%;
+	margin-left: 7.5%;
+	margin-top: 3%;
 }
+
+
+
+
+
+
 

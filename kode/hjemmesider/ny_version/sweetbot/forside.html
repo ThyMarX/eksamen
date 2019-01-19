@@ -234,10 +234,16 @@
 	
 	<script>
 		
+		/* ---Burgermenu funktion--- */
 		$(document).ready(function(){
 			$(".burger").click(function(){
 				$("#navBarMobile").toggleClass('hide');
 			});
+		});
+		
+		/* ---Start up scroll bug fix--- */
+		$(document).ready(function(){
+			$(this).scrollTop(0);
 		});
 		
 	</script>

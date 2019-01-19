@@ -1,18 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
-div{border: 1px solid red; /* Bliver kommenteret ud når der skal uploades */}  /*Bliver kommenteret ud når der skal uploades */
-
-/* -----Browser/CSS reset vi hugger fra eric mayer fra meyerweb----- 
-
-*/
+/* -----Browser/CSS reset vi hugger fra eric mayer fra meyerweb----- */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
-*/
-
-
+   License: none (public domain)*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -55,25 +48,20 @@ table {
 /* -------Her kommer mit eget style------- */
 /* --------------------------------------- */
 
-/*div {border: 1px solid red;}*/
-
 /* -----Overordnet css----- */
 
 html{ scroll-behavior:smooth;} /* Scroll effekten på forsiden */
 
 body{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	color:#585858;
-	background-color:#EAEFFF;
+	color: #585858;
+	background: #FF5F7F6; /* I tilfælde at browser ikke kan tage gradient */
+	background-image: repeating-linear-gradient(-25deg, white 15%, #F5F7F6 30%, white 45%);
 }
-
-
 
 /* Containeren som alt på siden er i */
 #container{
 	max-width: 3000px;
-/*min-width: 800px;*/
-	height: auto;
 	margin: 0 2.7%;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -99,36 +87,20 @@ img{
 	height: auto;
 }
 
-
-h1{	font-size: 70px;}
-h2{ font-size: 45px;}
-h3{ font-size: 35px;}
-h4{ font-size: 20px;}
-div{font-size: 20px;
-font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-}
-p { font-size: 20px;
+/* For at lave noget om til flex */
+h1{	font-size: 5vw;}
+h2{ font-size: 3.2vw;}
+h3{ font-size: 2.2vw;}
+h4{ font-size: 1.6vw;}
+p { font-size: 1.2vw;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
-
-
-
-@media only screen and (max-width: 965px) {
-	h1{	font-size: 45px;}
-	h2{	font-size: 35px;}
-	h3{	font-size: 20px;}
-	h4{ font-size: 15px;}
-nav a{  font-size: 15px;}
-	p{	font-size: 15px;}
-}
-
 
 /* -----Sidebar sektionen og dens css----- */
 
 .sidebar{
 	position: fixed;
 	width: 11%;
-/*min-width: 88px;*/
 	height: 600px;
 	left: 0px;
 	margin: 0 2.7%;	
@@ -147,14 +119,17 @@ nav{
 a{
 	text-decoration: none;
 	color:#585858;
-	font-size: 20px;
+	font-size: 1.5vw;
 }
 a:hover{ color:#A2A2A2;}
-.sidebarStreg{ width: auto;} /*ikke nødvendig, men hvis det ikke står der kommer der måske problemer senere*/
 
 .underEmne{
 	padding-left: 10%;
 	font-weight: normal;
+}
+
+.sidebarStreg{
+	width: 2px;
 }
 
 
@@ -182,7 +157,8 @@ a:hover{ color:#A2A2A2;}
 .tekst{
 	border: 1.5px solid #585858;
 	background-color: white;
-	padding: 5px;
+	padding: 10px;
+	line-height: 140%;
+	border-radius: 0.5%;
 }
-
 

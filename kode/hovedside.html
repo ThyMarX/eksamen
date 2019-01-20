@@ -17,13 +17,28 @@
 		<!-- -----Sidebar sektionen----- /-->
 		<div class="sidebar">
 			<div class="logo">
-				<a href="#forside"><img src="billeder/logo.png" alt="Logo"></a>
+				<a href="#forside"><img src="billeder/logo.png" alt="TDesign Logo"></a>
 			</div>
 			
 			<div class="flex">
 				<nav class="flex">
-					<a href="#projekter">Projekter</a>
-					<a href="#omMig">Om mig</a>
+					<div class="dropdown">
+						<a href="#projekter">Projekter</a>
+						<div class="dropdownLinks">
+							<a href="projekter/eksamen.html"><h4>Eksamen</h4></a> 
+							<a href="projekter/xd_portfolio.html"><h4>Drøm dit portfolio</h4></a> 
+							<a href="projekter/byg_en_app.html"><h4>Byg en app</h4></a>
+							<a href="projekter/sweetbot.html"><h4>Sweetbot</h4></a>
+						</div>
+					</div>
+					
+					<div class="dropdown">
+						<a href="#omMig">Om mig</a>
+						<div class="dropdownLinks">
+							<a href="refleksioner.html"><h4>Refleksioner</h4></a>
+						</div>
+					</div>
+					
 					<a href="#kontakt">Kontakt</a>
 				</nav>
 
@@ -44,7 +59,7 @@
 				</div>
 
 				<div class="forsideBillede">
-					<img src="billeder/forsideBillede.png" alt="Billede af Thomas med inspirerende arbejds citater">
+					<img src="billeder/forsideBillede.png" alt="Thomas og citater som beskriver hans arbejdsperson">
 				</div>
 			</div>
 			
@@ -58,7 +73,7 @@
 					<div class="projektVindueStor">
 						<a href="./projekter/eksamen.html">
 							<div class="forgrunden">
-								<img src="billeder/eksamensForside.png" alt="Billeder releteret til mit eksamens projekt" class="gennemsigtigBorder"><br>
+								<img src="billeder/eksamensForside.png" alt="Produktets forside for mit eksamens projekt" class="gennemsigtigBorder"><br>
 								<h2>1. semester eksamen</h2><br>
 								<h4>Photoshop, XD, Illustrator, Dreamweaver</h4> 
 							</div>
@@ -70,7 +85,7 @@
 					<div class="projektVindueLille">
 						<a href="./projekter/xd_portfolio.html">
 							<div class="forgrunden">
-								<img src="billeder/xdPortfolioForside.png" alt="Billeder releteret til min 'drøm dit portfolio' opgave">
+								<img src="billeder/xdPortfolioForside.png" alt="Produktets forside for mit mit 'Drøm dit portfolio' projekt">
 								<h3>Drøm dit portfolio</h3><br>
 								<h4>XD</h4>
 							</div>
@@ -81,7 +96,7 @@
 					<div class="projektVindueLille">
 						<a href="./projekter/byg_en_app.html">
 							<div class="forgrunden">
-								<img src="billeder/vejrAppForside.png" alt="Billeder releteret til min 'byg en app' opgave">
+								<img src="billeder/vejrAppForside.png" alt="Produktets forside for mit 'Byg en app' projekt">
 								<h3>Byg en app</h3> <br>
 								<h4>XD, Illustrator</h4>
 							</div>
@@ -92,7 +107,7 @@
 					<div class="projektVindueLille">
 						<a href="./projekter/sweetbot.html">
 							<div class="forgrunden">
-								<img src="billeder/sweetbotForside.png" alt="Billeder releteret til min 'Sweetbot' opgave">
+								<img src="billeder/sweetbotForside.png" alt="Produktets forside for mit 'Sweetbot' projekt">
 								<h3>Sweetbot</h3><br>
 								<h4>Dreamweaver, Illustrator</h4>
 							</div>
@@ -109,10 +124,21 @@
 				
 				<div class="flex">
 					<div class="omMigTekst">
-						<p class="tekst">Jeg er en kreativ, empatisk, analytisk og logisk tænkende person. <br><br> Jeg har tidligere uddannelses- og arbejdserfaring, hvor jeg har tilegnet mig viden indenfor: <br><br> - Computer science i 1½ år, hvor jeg lærte programmering, udviklingsmetoder, SCRUM og organisationsteori. <br><br> - Pædagogvikar i 1 år, hvor jeg udviklede kommunikation- samt samarbejdsevner. <br> - Studentermedhjælper, Region Hovedstadens i 1 år, hvor sagsjournalisering, varierende arbejdsopgaver og arbejdet i teams. <br> - Som ung har jeg arbejdet som statist og avisbud. <br><br> Jeg elsker at tilegne mig ny viden og har stort gåpåmod til nye arbejdsopgaver. </p>
+						<div class="tekst">
+							<p>Jeg er en kreativ, empatisk, analytisk og logisk tænkende person.</p> <br>
+							<p>Jeg har tidligere uddannelses- og arbejdserfaring, hvor jeg har tilegnet mig viden indenfor:</p>
+							<ul>
+								<li>Computer science i 1½ år, hvor jeg lærte programmering, udviklingsmetoder, SCRUM og organisationsteori</li>
+								<li>Pædagogvikar i 1 år, hvor jeg udviklede kommunikation- samt samarbejdsevner</li>
+								<li>Studentermedhjælper, Region Hovedstadens i 1 år, hvor sagsjournalisering, varierende arbejdsopgaver og arbejdet i teams</li>
+								<li>Som ung har jeg arbejdet som statist og avisbud</li> <br>
+							</ul>
+							<p>Jeg elsker at tilegne mig ny viden og har stort gåpåmod til nye arbejdsopgaver. </p>
+						</div>
 					</div>
+					
 					<div class="omMigBillede">
-						<img src="billeder/fisketur.jpg" alt="Billede af Thomas på fisketur">
+						<img src="billeder/fisketur.png" alt="Thomas på fisketur">
 					</div>
 				</div>
 			</div>
@@ -124,7 +150,7 @@
 				<div class="flex">
 					<div class="refleksionerTekst1">
 						<div class="tekst">
-							<h3>Fagligte</h3>
+							<h3>Faglige</h3>
 							<p>I dette semester har jeg fået erfaring med webdesign, digital grafisk design samt kommunikation og brugertests. Dette er opnået ved at arbejde i Adobe programmerne: Photoshop, Illustrator, XD, Dreamweaver herunder HTML, CSS, JavaScript og jQuery. Derudover læring om designteori, typografi, farver, gennemføre brugertests, informationsarkitektur og uploade til eget online domæne.</p>
 						</div>
 					</div>
@@ -139,30 +165,22 @@
 							<a href="refleksioner.html">Læs mere &#8680 </a>
 						</nav>
 					</div>
-					
-					
 				</div>
 			</div>
 			
 			<!-- ---Kontakt siden--- /-->
 			<div id="kontakt" class="sektionsRamme">
 				<h1 class="titel">Kontakt</h1>
-
+				
 				<div class="kontaktFormular">
 					<form action="mailto:thomas.d.s@hotmail.com" method="post" enctype="text/plain">
-					   <div class="kontaktFelt top"><label class="tekst">Dit Navn:</label></div>
-					   <div class="kontaktFelt"><input type="text" name="name" placeholder="Skriv.." autofocus required></div>
-						
-					   <div class="kontaktFelt"><label class="tekst">Din Email:</label> </div>
-					   <div class="kontaktFelt"><input type="email" name="email" placeholder="Skriv en gyldig mail.." required> </div>
-						
-					   <div class="kontaktFelt"><label class="tekst">Din besked:</label></div>
-					   <div class="kontaktFelt"><textarea name="comment" placeholder="Din besked..."></textarea></div>
-						
-					   <div class="kontaktFelt"><input type="submit" value="Send besked"></div>
+						<h3 class="kontaktTekst"><span>Send mig gerne en besked</span></h3>
+						<textarea name="comment" placeholder="Din besked..."></textarea>
+						<input type="submit" value="Send besked">
 					</form>	
-					<img src="billeder/sejltur.jpg" class="baggrundsBillede" alt="Billede af en solnedgang">
+					<img src="billeder/sejltur.jpg" class="baggrundsBillede" alt="Pæn solnedgang over Roskilde Fjord">
 				</div>
+				
 			</div>
 		</div>		
 	</div>
@@ -173,7 +191,6 @@
 		$(document).ready(function(){
 			$(this).scrollTop(0);
 		});
-		
 	</script>
 	
 </body>

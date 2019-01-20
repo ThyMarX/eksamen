@@ -1,9 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-/* ---For at passe underemnet ind i sidebaren--- */
-nav{height: 140px;}
+.titel{margin-bottom: 1vw;}
 
 /* -----Slideshow sektionen og dens css----- */
 
@@ -15,12 +13,16 @@ nav{height: 140px;}
 
 .slide img{
 	object-fit: scale-down;
-	height: 500px;
+	width: 99.8%;
+	height: 41vw;
+	margin: 2px 2px 0 0;
 }
 
 .slideRamme{
 	border: 1.5px solid #585858;
+	border-radius: 2px 2px 0 0;
 }
+
 
 /* ---Forrige og næste knapperne--- */
 .forrige, .naeste{
@@ -32,11 +34,9 @@ nav{height: 140px;}
 	padding: 16px;
 	transition: 0.6s ease;
 	border-radius: 0 3px 3px 0;
-}
-
-.slideTekst{
-	border-top: none;
-	padding-top: 10px;
+	background-color: rgba(255,255,255,0.3);
+	margin-right: 2px;
+	margin-left: 2px;
 }
 
 .naeste {
@@ -44,30 +44,36 @@ nav{height: 140px;}
 	border-radius: 3px 0 0 3px;
 }
 
-/* ---Hover effekten--- */
-.forrige:hover, .naeste:hover {
- 	background-color: rgba(0,0,0,0.8);
+.forrige:hover, .naeste:hover {	background-color: #585858;}
+
+.slideTekst{
+	border-top: none;
+	padding-top: 10px;
+	border-radius: 0 0 2px 2px;
+}
+.slideTekst p{ 	margin-top: 0;}
+
+p span{
+	padding-top: 50px;
 }
 
 /* ---Numrene i hjørnet--- */
 .numbertext {
-	color: black;
-	font-size: 12px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #585858;
+	font-size: 1vw;
 	padding: 8px 12px;
 	position: absolute;
-	top: 0;
+	top: 2px;
+	left: 2px;
+	background-color: rgba(255,255,255,0.3);
+	font-weight: bold;
 }
 
 /* ---Fading animationen--- */
 .fade {
-	-webkit-animation-name: fade;
-	-webkit-animation-duration: 1.5s;
 	animation-name: fade;
 	animation-duration: 1.5s;
-}
-@-webkit-keyframes fade {
-	from {opacity: .4} 
-	to {opacity: 1}
 }
 @keyframes fade {
 	from {opacity: 0} 
@@ -79,7 +85,6 @@ nav{height: 140px;}
 
 .projektOpsummering{
 	width: 34.9%;
-	margin-left: 8.4;
 	height: auto;
 	
 }
@@ -94,6 +99,7 @@ nav{height: 140px;}
 h1, h2, h3, h4{	line-height: 150%;}
 
 .tekst{	padding-top: 0;}
+.projektTekst li{margin-top: 0;}
 
 .slide .tekst{ padding-top: 10;}
 

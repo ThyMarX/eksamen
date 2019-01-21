@@ -59,6 +59,7 @@ body{
 	background-image: repeating-linear-gradient(-25deg, white 15%, #F5F7F6 30%, white 45%);
 }
 
+
 /* Containeren som alt på siden er i */
 #container{
 	max-width: 3000px;
@@ -124,9 +125,11 @@ ul{
 }
 
 nav{
+	display: flex;
 	width: 90%;
 	height: 8vw;
 	flex-direction: column;
+	justify-content: space-between;
 	font-weight:bold;
 }
 a{
@@ -142,9 +145,10 @@ a:hover{ color:#A2A2A2;}
 	display: none;
 	position: absolute;
 	background-color: white;
-	width: 170px;
+	width: 13vw;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	left: 3vw;
+	border-radius: 2px;
 }
 .dropdownLinks h4{ 
 	line-height: 2.5vw;
@@ -153,10 +157,13 @@ a:hover{ color:#A2A2A2;}
 .dropdownLinks a{line-height: 20px;}
 .dropdown:hover .dropdownLinks {display: flex;}
 
+/*For at highligte hvilken side man er på*/
 .aktuel{color:#A2A2A2;}
 
-.sidebarStreg{ width: 2px;}
-
+.sidebarStreg{ 
+	height: 80vh;
+	border-right: 1.5px solid #585858;
+}
 
 /* -----Main sektionen og dens css----- */
 
@@ -182,7 +189,7 @@ a:hover{ color:#A2A2A2;}
 .tekst{
 	border: 1.5px solid #585858;
 	background-color: white;
-	padding: 10px;
+	padding: 1vw;
 	border-radius: 2px;
 	line-height: 1.7vw;
 }

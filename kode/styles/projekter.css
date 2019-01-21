@@ -10,19 +10,22 @@
 	margin-left: 7.5%;
 	position: relative;
 }
-
 .slide img{
 	object-fit: scale-down;
 	width: 99.8%;
-	height: 41vw;
+	height: 36vw;
 	margin: 2px 2px 0 0;
 }
-
 .slideRamme{
 	border: 1.5px solid #585858;
 	border-radius: 2px 2px 0 0;
 }
 
+.slideTekst{
+	border-top: none;
+	border-radius: 0 0 2px 2px;
+}
+.slide p{margin-top: 0;}
 
 /* ---Forrige og næste knapperne--- */
 .forrige, .naeste{
@@ -38,24 +41,11 @@
 	margin-right: 2px;
 	margin-left: 2px;
 }
-
 .naeste {
 	right: 0;
 	border-radius: 3px 0 0 3px;
 }
-
 .forrige:hover, .naeste:hover {	background-color: #585858;}
-
-.slideTekst{
-	border-top: none;
-	padding-top: 10px;
-	border-radius: 0 0 2px 2px;
-}
-.slideTekst p{ 	margin-top: 0;}
-
-p span{
-	padding-top: 50px;
-}
 
 /* ---Numrene i hjørnet--- */
 .numbertext {
@@ -83,11 +73,7 @@ p span{
 
 /* -----Tekst sektionen på siden og dens css----- */
 
-.projektOpsummering{
-	width: 34.9%;
-	height: auto;
-	
-}
+.projektOpsummering{ width: 34.9%;}
 
 .projektTekst{
 	width: 71.1%;
@@ -95,13 +81,7 @@ p span{
 	margin-top: 3%;
 }
 
-
 h1, h2, h3, h4{	line-height: 150%;}
-
-.tekst{	padding-top: 0;}
-.projektTekst li{margin-top: 0;}
-
-.slide .tekst{ padding-top: 10;}
 
 .projektTekst a {text-decoration: underline;}
 

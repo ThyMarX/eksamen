@@ -112,21 +112,23 @@
 form{
 	position: absolute;
 	width: 100%;
+	text-align: center;
 }
 
 .kontaktTekst{
-	margin-top: 10%;
-	text-align: center;
-}
-.kontaktTekst span{
+	width: 50%;
+	margin-top: 7%;
+	display: inline-block;
 	background-color: rgba(255,255,255,0.6);
-	padding: 1% 1.7%;
 	border-radius: 2px;
+	padding: 1vw 0;
 }
+.kontaktTekst p{margin-top: 2vw;}
 
 .baggrundsBillede{
 	box-shadow: 0 0 10px 1px black;
 	border-radius: 0.5%;
+	height: 100%;
 }
 
 textarea, input{
@@ -159,7 +161,5 @@ input:hover{
 	background-color: #B5B5B5;
 	cursor: pointer;
 }
-
-
 
 
